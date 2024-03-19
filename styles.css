@@ -104,4 +104,49 @@ div {
 
 .header {
     background-color: #ffffff;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+
+.sub-header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 110px;
+    padding: 15px 0;
+}
+
+.search {
+    display: grid;
+    grid-template-columns: 20px minmax(450px, 700px);
+    gap: 10px;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.search-bar {
+    height: 25px;
+    border-style: none;
+    border-radius: 15px;
+    background-color: #e2e9f1;
+}
+
+input[type="text"] {
+    padding:15px; /*Gives text more room in search bar*/
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 20px 35px minmax(150px, 1fr); 
+    align-items: center;
+    gap: 30px;
+
+}
+
+.profile img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+
 }
