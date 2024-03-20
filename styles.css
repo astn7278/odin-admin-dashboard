@@ -28,7 +28,7 @@ div {
 .wrapper {
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 250px 4fr;
 
 }
 
@@ -113,7 +113,7 @@ div {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 110px;
-    padding: 15px 0;
+    padding: 15px 35px 0px 35px;
 }
 
 .search {
@@ -121,7 +121,7 @@ div {
     grid-template-columns: 20px minmax(450px, 700px);
     gap: 10px;
     align-items: center;
-    padding-left: 30px;
+
 }
 
 .search-bar {
@@ -140,7 +140,7 @@ input[type="text"] {
     grid-template-columns: 20px 35px minmax(150px, 1fr); 
     align-items: center;
     gap: 30px;
-
+    justify-self: end
 }
 
 .profile img {
@@ -148,5 +148,57 @@ input[type="text"] {
     height: 35px;
     border-radius: 50%;
     overflow: hidden;
+    margin-left: 5px;
+}
+
+.sub-header2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 15px 35px 0px 35px;
+}
+
+.greeting-container {
+    display: grid;
+    grid-template-columns: 55px minmax(55px, 1fr);
+    align-items: center;
+    gap: 15px;
+
+
+}
+
+.greeting {
+    display: grid;
+    grid-template-rows: 12px 26px;
+    gap: 4px;
+    align-items: center;
+    font-weight: 600;
+}
+.sub-header2 img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.salute {
+    font-size: .7em; 
+}
+
+
+.menu {
+    justify-self: end;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.menu button {
+    height: 30px;
+    width: 80px;
+    border-style: none;
+    border-radius: 15px;
+    background-color: #0ea5e9;
+    color: white;
 
 }
