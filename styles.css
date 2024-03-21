@@ -13,7 +13,7 @@ body {
 
 html {
     background-color: rgb(235, 235, 235);
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
 }
 
@@ -22,14 +22,12 @@ li {
 }
 
 div {
-
 }
 
 .wrapper {
     height: 100%;
     display: grid;
     grid-template-columns: 250px 4fr;
-
 }
 
 .sidebar-container {
@@ -55,7 +53,7 @@ div {
 
 .dashboard-logo {
     fill: white;
-    width: 40px
+    width: 40px;
 }
 
 .sidebar-container a {
@@ -73,10 +71,10 @@ div {
     display: grid;
     grid-template-columns: 1fr;
     padding-left: 20px;
-    gap: 20px
+    gap: 20px;
 }
 
-.nav a{
+.nav a {
     display: grid;
     grid-template-columns: 1fr 4fr;
     align-items: end;
@@ -87,10 +85,10 @@ div {
     grid-template-columns: 1fr;
     padding-left: 20px;
     padding-top: 20px;
-    gap: 20px
+    gap: 20px;
 }
 
-.settings a{
+.settings a {
     display: grid;
     grid-template-columns: 1fr 4fr;
     align-items: end;
@@ -101,14 +99,12 @@ div {
     color: black;
 }
 
-
 .header {
     background-color: #ffffff;
     display: grid;
     grid-template-rows: 1fr 2fr;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 .sub-header {
     display: grid;
@@ -122,7 +118,6 @@ div {
     grid-template-columns: 20px minmax(450px, 700px);
     gap: 10px;
     align-items: center;
-
 }
 
 .search-bar {
@@ -133,15 +128,15 @@ div {
 }
 
 input[type="text"] {
-    padding:15px; /*Gives text more room in search bar*/
+    padding: 15px; /*Gives text more room in search bar*/
 }
 
 .profile {
     display: grid;
-    grid-template-columns: 20px 35px minmax(150px, 1fr); 
+    grid-template-columns: 20px 35px minmax(150px, 1fr);
     align-items: center;
     gap: 30px;
-    justify-self: end
+    justify-self: end;
 }
 
 .profile img {
@@ -164,8 +159,6 @@ input[type="text"] {
     grid-template-columns: 55px minmax(55px, 1fr);
     align-items: center;
     gap: 15px;
-
-
 }
 
 .greeting {
@@ -183,9 +176,8 @@ input[type="text"] {
 }
 
 .salute {
-    font-size: .7em; 
+    font-size: 0.7em;
 }
-
 
 .menu {
     justify-self: end;
@@ -201,23 +193,21 @@ input[type="text"] {
     border-radius: 15px;
     background-color: #0ea5e9;
     color: white;
-
 }
 
 .main-content {
     display: grid;
     grid-template-columns: 3fr 1fr;
-
 }
 
 .project-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(325px, 325px));
+    grid-template-columns: repeat(auto-fill, 385px);
     grid-template-rows: 25px 1fr;
-    gap: 20px;
+    gap: 25px;
     align-items: end;
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .project-cards p {
@@ -228,10 +218,22 @@ input[type="text"] {
 }
 
 .card {
-    height: 175px;
-    width: 325px;
+    height: 215px;
+    width: 385px;
     background-color: white;
     border-radius: 8px;
     border-left: solid 8px #e3b030;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px 20px 0px 20px;
+}
+
+.card h3 {
+    font-size: 1em;
+}
+
+.card div {
+    color: #868686;
+    padding-top: 8px;
+    font-weight: 100;
+    font-size: .9em;
 }
